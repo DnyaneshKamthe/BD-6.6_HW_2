@@ -36,3 +36,4 @@ app.get("/games/details/:id", (req, res) => {
   }
  })
 
+module.exports = { app }
